@@ -33,7 +33,7 @@ foreach ($events as $event) {
   */
   
   if(strpos($event->getText(),'占') !== false){
-      $my_reply = "マグナムポイント　＋" . (string)mt_rand(0,100) . "!!";
+      $my_reply = "ドュルルルルルルル　デーン！！　　マグナムポイント＋" . (string)mt_rand(0,100) . "　(੭ु´･ω･`)੭ु⁾⁾";
   
   $bot->replyText($event->getReplyToken(), $my_reply);
 
