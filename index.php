@@ -32,7 +32,11 @@ foreach ($events as $event) {
   $bot->replyText($event->getReplyToken(), $event->getText());
   */
   
+  if(strpos($event->getText(),'占') !== false){
+    } else{
+  
    $bot->replyText($event->getReplyToken(), "チャオ♪　マグナムだよ(^_-)-☆"); 
+  }
   
 }
 
